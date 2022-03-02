@@ -1,8 +1,8 @@
-import connections from '../connections.js';
+import connections from '../connections.mjs';
 import ethers from 'ethers';
 import 'dotenv/config';
 import fetch from 'node-fetch';
-import sendLPNotification from './sendLpNotification.js';
+import sendLPNotification from './sendLpNotification.mjs';
 
 const uniV2Factory = ['event PairCreated(address indexed token0, address indexed token1, address pair, uint)'];
 const uniV3Factory = ['event PoolCreated(address token0, address token1, uint24 fee, int24 tickSpacing, address pool)'];

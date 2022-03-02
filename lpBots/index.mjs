@@ -1,4 +1,4 @@
-import { pancakeswap } from './bsc.js';
+import { pancakeswap } from './bsc.mjs';
 
 let uniswapV2Dexes = [pancakeswap];
 

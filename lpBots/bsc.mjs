@@ -1,5 +1,5 @@
 import ethers from 'ethers';
-import { uniV2Factory, getAccount } from '../utils/utils.js';
+import { uniV2Factory, getAccount } from '../utils/utils.mjs';
 
 const addresses = {
     pancakeSwapFactory: '0xca143ce32fe78f1f7019d7d551a6402fc5350c73',

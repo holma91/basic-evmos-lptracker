@@ -8,7 +8,7 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const client = require('twilio');
 
 import { MessageEmbed, WebhookClient } from 'discord.js';
-import connections from '../connections.js';
+import connections from '../connections.mjs';
 const { BSC, ETH, FTM, AVAX, AURORA, FUSE, METIS, OPTIMISM, ARBITRUM } = connections;
 const dexscreenerUrl = 'https://dexscreener.com';
 

@@ -23,7 +23,6 @@
         "twilio": "^3.73.0",
         "ws": "^8.5.0"
     },
-    "type": "module",
     "bugs": {
         "url": "https://github.com/alexanderholmberg/basic-evmos-lptracker/issues"
     },
