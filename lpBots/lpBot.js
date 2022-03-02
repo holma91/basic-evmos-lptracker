@@ -1,5 +1,5 @@
-import uniswapV2Dexes from './lpBots/index.js';
-import { onPairCreated } from './utils/utils.js';
+import uniswapV2Dexes from './index.js';
+import { onPairCreated } from '../utils/utils.js';
 
 for (const dex of uniswapV2Dexes) {
     dex['factory'].on('PairCreated', async (token0Address, token1Address, addressPair) => {
