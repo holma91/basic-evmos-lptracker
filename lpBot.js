@@ -1,4 +1,4 @@
-import { uniswapV2Dexes } from './LpBots/index.js';
+import uniswapV2Dexes from './lpBots/index.js';
 import { onPairCreated } from './utils/utils.js';
 
 for (const dex of uniswapV2Dexes) {
